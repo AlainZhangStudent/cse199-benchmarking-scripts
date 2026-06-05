@@ -2,6 +2,10 @@
 
 Combined CPU + GPU stress testing, thermal characterization, and power rail monitoring for Qualcomm Snapdragon / Adreno hardware.
 
+For a cluster-friendly benchmarking version, use these benchmarking scripts:
+
+[https://github.com/SirPuddinlot/qcluster-benchmarks-scripts](https://github.com/SirPuddinlot/qcluster-benchmarks-scripts)
+
 ---
 
 ## Quick Start
