@@ -22,7 +22,7 @@ chmod +x benchmarks/views/*.sh
 ### `volt_live_display_test.sh`
 Runs a staged voltage droop test and displays real-time power rail data in the terminal. Useful for seeing how much the system voltage sags under different load conditions.
 
-Stages: idle baseline → CPU only → GPU only → CPU + GPU combined
+Stages: idle baseline -> CPU only -> GPU only -> CPU + GPU combined
 
 ```bash
 ./volt_live_display_test.sh
@@ -59,7 +59,7 @@ Logs to `logs/combined/`. Includes watchdog telemetry at 0.1s resolution and a j
 ### `benchmarks/runners/cpu_bench.sh`
 Staged CPU benchmark with telemetry logging. Steps through increasing workloads and auto-parses results into a CSV.
 
-Stages: single core → all cores → all cores + memory → all cores + memory + IO
+Stages: single core -> all cores -> all cores + memory -> all cores + memory + IO
 
 ```bash
 ./benchmarks/runners/cpu_bench.sh
